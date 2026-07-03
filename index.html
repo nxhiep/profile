@@ -115,6 +115,12 @@
             color: #58a6ff;
         }
 
+        .contact-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
         .contact-link {
             color: #58a6ff;
             text-decoration: none;
@@ -167,7 +173,10 @@
 
         <div class="section">
             <div class="section-title">Contact</div>
-            <a href="mailto:contact@hiepnx.site" class="contact-link">contact@hiepnx.site</a>
+            <div class="contact-list">
+                <a href="mailto:contact@hiepnx.site" class="contact-link">contact@hiepnx.site</a>
+                <a href="https://github.com/nxhiep" class="contact-link" target="_blank" rel="noopener">github.com/nxhiep</a>
+            </div>
         </div>
     </main>
 </body>
